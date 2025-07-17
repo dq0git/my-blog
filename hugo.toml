@@ -3,3 +3,11 @@ languageCode = "ko-kr"
 title = "My Hugo LogBook Blog"
 theme = "Hugo-Logbook"
 
+[params.Sidebar]
+  # 추천 글 최대 표시 개수
+  NrOfFeaturedArticles = 5
+
+  # 사이드바 제목 (원하시는 한국어로 바꿔도 됩니다)
+  Categories = "카테고리"
+  Tags       = "태그"
+  Featured   = "추천 글"
