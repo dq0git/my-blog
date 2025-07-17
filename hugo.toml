@@ -2,3 +2,12 @@ baseURL = "https://example.com/"
 languageCode = "ko-kr"
 title = "My Hugo LogBook Blog"
 theme = "Hugo-Logbook"
+
+[params.Sidebar]
+  # 사이드바 섹션명 (원하는 대로 변경 가능)
+  Categories = "Categories"
+  Tags        = "Tags"
+  Featured    = "Featured"
+
+  # 추천 글(Featured)로 보여줄 최대 개수
+  NrOfFeaturedArticles = 5
